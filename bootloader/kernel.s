@@ -1,0 +1,15 @@
+    mov al,"x"
+    mov ah, 0x0E
+    mov bh, 0x00
+    mov bl, 0x02
+    int 0x10
+    mov al,"x"
+    mov ah, 0x0E
+    mov bh, 0x00
+    mov bl, 0x02
+    int 0x10
+    mov al,"x"
+    mov ah, 0x0e
+    mov bh, 0x00
+    mov bl, 0x02
+    int 0x10
